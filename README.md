@@ -2,11 +2,11 @@
 
 Univesity of Zurich: Clone Website
 
-I noticed that the website of the University of Zurich does not have a great responsive layout. I then decided to attempt creating a homepage which would look great on mobile devices.
+I created a new homepage for the UZH website usind a card layout. It is time to inlcude an hamburger-menu.
 
 ## The problem
 
-The main goal: make the homepage responsive.
+The main goal: include an hamburger-menu by using CSS animations and JS
 
 ## View it live
 
