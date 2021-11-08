@@ -2,7 +2,7 @@
 
 Univesity of Zurich: Clone Website
 
-I created a new homepage for the UZH website usind a card layout. It is time to inlcude an hamburger-menu.
+I created a new homepage for the UZH website usind a card layout. Next step: create an hamburger-menu.
 
 ## The problem
 
