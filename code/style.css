@@ -73,7 +73,7 @@ nav a {
 }
 
 #login {
-color: blue;
+color: rgb(0, 94, 168);
 
 }
 
@@ -88,11 +88,17 @@ color: blue;
     width: 100%;
 }
 
-.welcome-text {
-    color: rgb(0, 40, 165);
+.welcome-text h1 {
     text-align: center;
-    font-size: large;
+    font-size: x-large;
 }
+
+.welcome-text {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+ }
 
 img {
 	display: block;
@@ -110,11 +116,6 @@ img {
 	color: black;
 	text-decoration: none;
 }
-
-.card:hover {
-    background-color: rgb(241, 247, 249);
-    border-radius: 5px;
-  }
 
 .card {
     flex: 0 1 calc(25% - 1em);
@@ -136,11 +137,10 @@ img {
     justify-content: space-between;
  }
 
- .interview {
+ .fact {
     background-color: white;
     margin-bottom: 20px;
     padding: 50px;
-
  }
 
 
@@ -191,11 +191,29 @@ img {
     left: 0;
     right: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction:column;
+    align-items: left;
     justify-content: center;
     background-color: whitesmoke;
+    font-size: 25px;
   }
+
+  nav a {
+    padding: 10px;
+  }  
+  
+  #login {
+    color: black;
+
+    }
+
+  nav a:hover {
+        color: rgb(0, 94, 168);
+      }  
+
+  #login:hover{
+        color: rgb(0, 94, 168);
+         }
 
 }
 
